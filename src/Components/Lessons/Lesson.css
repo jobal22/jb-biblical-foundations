@@ -1,0 +1,340 @@
+.lesson-container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lesson-header-container, .lesson-main-container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.lesson-header-container {
+    text-align: center;
+}
+
+.lesson-header-title > h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.guideTitle {
+    margin-bottom: 0;
+}
+
+.lesCount {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.lesson-header-img img {
+    width: 110px;
+}
+
+/* Styling Lesson Verse */
+.lesson-main-verse-container {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding: 30px;
+    /* border-radius: 10px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .lmvc-gospel {
+    background-image: url(../../img/dustyRoad.jpg);
+  }
+
+  .lmvc-testimony {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/journey.jpg);
+  }
+
+  .lmvc-assurance {
+    background-image: 
+    linear-gradient(rgba(68, 68, 68, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/mtbg.jpg);
+  }
+
+  .lmvc-baptism {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/lake.jpg);
+  }
+
+  .lmvc-evangelism {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/cliff.jpg);
+  }
+
+  .lmvc-bible {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/hills.jpg);
+  }
+
+  .lmvc-prayer {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/fogtree.jpg);
+  }
+
+  .lmvc-church {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../../img/flowers.jpg);
+  }
+
+.lesson-main-verse {
+    position: relative;
+    display: inline-block; /* Keeps container tight around the image */
+    width: 100%;           /* Adjust based on your layout needs */
+    max-width: 550px;
+    align-items: center;
+    left: 50%;
+    top: 7%; /* Requires the parent container to have a set height */
+    transform: translate(-50%, -0%);
+}
+
+.lesson-main-verse-box {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    display: block; 
+    opacity: .4;
+    border-radius: 10px;
+}
+
+.lesson-main-verse-p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-10%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.7); 
+}
+
+/* Styling Lesson Parts */
+.lesson-main-container-parts > h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.bible-unique-header {
+    text-align: center;
+    font-size: 25px;
+}
+
+.bible-unique-mini-header, .prayer-unique-header {
+    font-size: 20px;
+}
+
+.lesson-main-parts-list::marker {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.lesson-main-parts-list > h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.lesson-main-parts-verse {
+    font-weight: bold;
+}
+
+.lmcp-exList {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lmcp-exList-parts {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.testimony-bd {
+    font-size: 25px;
+}
+
+/* Ten Commandments Section */
+.tenCommands {
+    background-color: #729999;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.tenCommands > h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tenCommands li {
+    padding: 10px 0;
+}
+
+/* Big Thoughts */
+.lesson-main-container-bigMoment {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #1E3B2F;
+    border-bottom: 1px solid #1E3B2F;
+    margin: 50px 0;
+}
+
+.lmcb-first > h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.lmcb-second {
+    font-size: 22px;
+}
+
+/* Bible Verses to Know */
+.lmcp-unique-bible-header {
+    color: #af9e7a;
+}
+
+.lmpo-bible-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.lmcp-bible-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lmpo-bible-list-border {
+    border-bottom: 1px solid #1E3B2F;
+    padding-bottom: 25px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .lesson-header-container, .lesson-main-container {
+        margin-bottom: 100px;
+    }
+    
+    .lesson-header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .lesson-header-title, .lesson-header-img {
+        display: inline-block;
+    }
+    
+    .lesson-header-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .lesCount {
+        margin-bottom: 0;
+    }
+
+    /*Verse styling*/
+    .lesson-main-verse-container {
+        height: 400px;
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .lesson-main-verse {
+        top: 7%; /* Requires the parent container to have a set height */
+    }
+    
+    .lesson-main-verse-box {
+        height: 350px;
+    }
+
+    .lesson-main-verse-p {
+        top: 50%;
+        left: 20%;
+        transform: translate(-10%, -50%);
+    }
+
+    .tenCommands {
+        width: 350px;
+        margin: 50px auto;
+        border-top-left-radius: 50% 30%;
+        border-top-right-radius: 50% 30%;
+        padding: 60px 20px 20px 20px;
+        box-shadow: 0px 4px 10px #729999;
+    }
+    
+    .tenCommands > h3 {
+        font-size: 25px;
+    }
+
+    /* Big Thoughts */
+    .lesson-main-container-bigMoment {
+        display: flex;
+        flex-direction: row;
+        border-top: 0;
+        border-bottom: 0;
+        margin: 50px 0;
+        box-shadow: 0px 4px 10px #bfbfbf;
+        border-radius: 8px;
+    }
+
+    .lmcb-first {
+        flex: 2;
+        background-color: #1E3B2F;
+        color: white;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .lmcb-second {
+        flex: 3;
+    }
+
+    .lmcb-first > h3 {
+        font-size: 30px;
+        font-weight: lighter;
+        padding: 0 40px;
+        align-items: center;
+    }
+
+    .lmcb-second {
+        font-size: 22px;
+        margin-top: 0;
+    }
+    
+    .lmcb-moments {
+        padding: 0 50px;
+        align-content: center;
+        margin: 0;
+    }
+
+    /* Bible Verses to Know */
+    .lmpo-bible {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    /* Testimony List */
+    .testimony-unique {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+}

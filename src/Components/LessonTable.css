@@ -1,0 +1,65 @@
+/* Table Style */
+.lessonTable-container {
+    margin-top: 100px;
+}
+
+.lessonTable-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lessonTable-lessons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lessonTable-lessons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 20px auto;
+    /* border-bottom: 1px solid #1E3B2F; */
+    /* padding-bottom: 20px; */
+}
+
+
+.lessonTable-lessons h3 {
+    font-size: 18px;
+}
+
+.lessonTable-lessons-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #384F5D;
+    font-size: 16px;
+    /* border-bottom: 1px solid black; */
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.lessonTable-lessons-link:hover {
+    background-color: #384F5D;
+    color: #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.lessonTable-hr {
+    height: .5px;
+    width: 100%;
+    background-color: #384F5D;
+}
+
+@media screen and (min-width: 768px){
+    .lessonTable-lessons {
+        max-width: 600px;
+    }
+}

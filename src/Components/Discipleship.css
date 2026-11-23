@@ -1,0 +1,122 @@
+.discipleship-container {
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.discipleship-header-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+.discipleship-header-container h1 {
+    text-align: center;
+    /* color: #384F5D; */
+    font-size: 30px;
+}
+
+.discipleship-main-container {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+#nbg-intro p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Table Style */
+.table-container {
+    margin-bottom: 100px;
+}
+
+.table-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.table-lessons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table-lessons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.table-lessons img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.table-lessons h3 {
+    font-size: 25px;
+}
+
+.table-lessons p {
+    text-wrap: pretty;
+}
+
+.table-lessons-link {
+    padding: 10px 0;
+    text-decoration: none;
+    color: #384F5D;
+    font-size: 18px;
+}
+
+.table-lessons-link:hover {
+    background-color: #384F5D;
+    color: #fafafa;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 768px){
+    .table-lessons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 30px;
+        max-width: 700px;
+        margin: 10px auto;
+        padding: 0 10px;
+        border: 0;
+        box-sizing: none;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+
+    .item-1 { flex: 0.5;}
+    .item-2 { flex: 1; }
+    .item-3 { flex: 2; }
+    .item-4 { flex: 0.25; }
+
+    .table-lessons-link {
+        margin: 0 20px;
+    }
+
+    .table-lessons-link {
+        font-size: 15px;
+    }
+
+    .table-lessons-link:hover {
+        background-color: #fff; 
+        color: #9ba7ae;
+    }
+}
