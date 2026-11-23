@@ -51,7 +51,7 @@ export default function Menu() {
             onClick={() => closeMenu()}
             className="navlinkA"
           >
-            Dischiple
+            Disciple
           </NavLink>
         </li>
       </ul>{" "}
