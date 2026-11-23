@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../img/JB-logo3.png";
 import Menu from './Menu/Menu';
@@ -6,7 +7,7 @@ import Menu from './Menu/Menu';
 function Header() {
   return (
     <div className='navContainer'>
-        <img src={logo} alt="door logo" />
+        <Link to='/'><img src={logo} alt="door logo" /></Link>
         <nav className="navbar">
             <ul id="menu">
                 <li><a href="/">Home</a></li>
